@@ -22,7 +22,7 @@ variable "vpc_subnet_id" {
 }
 
 variable "ssh_credentials" {
-  description = "Credentials for connect to instances"
+  description = "Credentials for connecting to instances"
   type        = object({
     user        = string
     private_key = string
